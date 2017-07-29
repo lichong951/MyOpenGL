@@ -14,6 +14,12 @@
 		FAB02B381F2C4604004B9277 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
 		FAB02B3A1F2C460C004B9277 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
 		FAB02B4A1F2C4C04004B9277 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
+		FAB02B851F2C9213004B9277 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
+		FAB02B861F2C9213004B9277 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
+		FAB02B871F2C9213004B9277 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
+		FAB02B891F2C9213004B9277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */; };
+		FAB02B8F1F2C938F004B9277 /* Chapter02_2_Move-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB02B8E1F2C938F004B9277 /* Chapter02_2_Move-Info.plist */; };
+		FAB02B921F2C97DA004B9277 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB02B901F2C97A4004B9277 /* Move.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,9 @@
 		FAB02B371F2C4604004B9277 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FAB02B391F2C460C004B9277 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		FAB02B491F2C4C04004B9277 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		FAB02B8D1F2C9213004B9277 /* Chapter02_2_Move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter02_2_Move.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB02B8E1F2C938F004B9277 /* Chapter02_2_Move-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chapter02_2_Move-Info.plist"; sourceTree = "<group>"; };
+		FAB02B901F2C97A4004B9277 /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Move.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAB02B841F2C9213004B9277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB02B851F2C9213004B9277 /* libGLTools.a in Frameworks */,
+				FAB02B861F2C9213004B9277 /* GLUT.framework in Frameworks */,
+				FAB02B871F2C9213004B9277 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,6 +129,7 @@
 				FA7A2E501F2C3CB00050D25B /* MyOpenGLCoco.app */,
 				FA7A2E661F2C3CB00050D25B /* MyOpenGLCocoTests.xctest */,
 				FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */,
+				FAB02B8D1F2C9213004B9277 /* Chapter02_2_Move.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +137,7 @@
 		FA7A2E521F2C3CB00050D25B /* MyOpenGLCoco */ = {
 			isa = PBXGroup;
 			children = (
+				FAB02B8E1F2C938F004B9277 /* Chapter02_2_Move-Info.plist */,
 				FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */,
 				FA7A2E611F2C3CB00050D25B /* Info.plist */,
 				FA7A2E561F2C3CB00050D25B /* Supporting Files */,
@@ -128,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				FA7A2E571F2C3CB00050D25B /* main.cpp */,
+				FAB02B901F2C97A4004B9277 /* Move.cpp */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,6 +266,23 @@
 			productReference = FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FAB02B811F2C9213004B9277 /* Chapter02_2_Move */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB02B8A1F2C9213004B9277 /* Build configuration list for PBXNativeTarget "Chapter02_2_Move" */;
+			buildPhases = (
+				FAB02B821F2C9213004B9277 /* Sources */,
+				FAB02B841F2C9213004B9277 /* Frameworks */,
+				FAB02B881F2C9213004B9277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter02_2_Move;
+			productName = MyOpenGLCoco;
+			productReference = FAB02B8D1F2C9213004B9277 /* Chapter02_2_Move.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,6 +324,7 @@
 				FA7A2E4F1F2C3CB00050D25B /* MyOpenGLCoco */,
 				FA7A2E651F2C3CB00050D25B /* MyOpenGLCocoTests */,
 				FA7A2E701F2C3CB00050D25B /* MyOpenGLCocoUITests */,
+				FAB02B811F2C9213004B9277 /* Chapter02_2_Move */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB02B8F1F2C938F004B9277 /* Chapter02_2_Move-Info.plist in Resources */,
 				FA7A2E5D1F2C3CB00050D25B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +350,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB02B881F2C9213004B9277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB02B891F2C9213004B9277 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7A2E761F2C3CB00050D25B /* MyOpenGLCocoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB02B821F2C9213004B9277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB02B921F2C97DA004B9277 /* Move.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +591,50 @@
 			};
 			name = Release;
 		};
+		FAB02B8B1F2C9213004B9277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=2",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/include",
+					"$(inherited)$(PROJECT_DIR)/include/GL",
+				);
+				INFOPLIST_FILE = "MyOpenGLCoco/Chapter02_2_Move-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB02B8C1F2C9213004B9277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/include",
+					"$(inherited)$(PROJECT_DIR)/include/GL",
+				);
+				INFOPLIST_FILE = "MyOpenGLCoco/Chapter02_2_Move-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,6 +670,15 @@
 			buildConfigurations = (
 				FA7A2E811F2C3CB00050D25B /* Debug */,
 				FA7A2E821F2C3CB00050D25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB02B8A1F2C9213004B9277 /* Build configuration list for PBXNativeTarget "Chapter02_2_Move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB02B8B1F2C9213004B9277 /* Debug */,
+				FAB02B8C1F2C9213004B9277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

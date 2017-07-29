@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Chapter02_2_Move.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>MyOpenGLCoco.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>FA7A2E701F2C3CB00050D25B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAB02B4E1F2C8F35004B9277</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAB02B631F2C8F36004B9277</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAB02B6E1F2C8F36004B9277</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAB02B811F2C9213004B9277</key>
 		<dict>
 			<key>primary</key>
 			<true/>
