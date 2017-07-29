@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7A2E581F2C3CB00050D25B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A2E571F2C3CB00050D25B /* main.cpp */; };
+		FA7A2E5D1F2C3CB00050D25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */; };
+		FA7A2E6B1F2C3CB00050D25B /* MyOpenGLCocoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A2E6A1F2C3CB00050D25B /* MyOpenGLCocoTests.m */; };
+		FA7A2E761F2C3CB00050D25B /* MyOpenGLCocoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A2E751F2C3CB00050D25B /* MyOpenGLCocoUITests.m */; };
+		FAB02B381F2C4604004B9277 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
+		FAB02B3A1F2C460C004B9277 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
+		FAB02B4A1F2C4C04004B9277 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7A2E671F2C3CB00050D25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7A2E481F2C3CB00050D25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7A2E4F1F2C3CB00050D25B;
+			remoteInfo = MyOpenGLCoco;
+		};
+		FA7A2E721F2C3CB00050D25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7A2E481F2C3CB00050D25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7A2E4F1F2C3CB00050D25B;
+			remoteInfo = MyOpenGLCoco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7A2E501F2C3CB00050D25B /* MyOpenGLCoco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOpenGLCoco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7A2E571F2C3CB00050D25B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7A2E611F2C3CB00050D25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7A2E661F2C3CB00050D25B /* MyOpenGLCocoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOpenGLCocoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7A2E6A1F2C3CB00050D25B /* MyOpenGLCocoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLCocoTests.m; sourceTree = "<group>"; };
+		FA7A2E6C1F2C3CB00050D25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOpenGLCocoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7A2E751F2C3CB00050D25B /* MyOpenGLCocoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLCocoUITests.m; sourceTree = "<group>"; };
+		FA7A2E771F2C3CB00050D25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB02B261F2C45E2004B9277 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		FAB02B271F2C45E2004B9277 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		FAB02B281F2C45E2004B9277 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		FAB02B291F2C45E2004B9277 /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		FAB02B2A1F2C45E2004B9277 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		FAB02B2B1F2C45E2004B9277 /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		FAB02B2C1F2C45E2004B9277 /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		FAB02B2D1F2C45E2004B9277 /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		FAB02B2E1F2C45E2004B9277 /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		FAB02B2F1F2C45E2004B9277 /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		FAB02B301F2C45E2004B9277 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		FAB02B311F2C45E2004B9277 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		FAB02B321F2C45E2004B9277 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		FAB02B331F2C45E2004B9277 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		FAB02B371F2C4604004B9277 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FAB02B391F2C460C004B9277 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		FAB02B491F2C4C04004B9277 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7A2E4D1F2C3CB00050D25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB02B4A1F2C4C04004B9277 /* libGLTools.a in Frameworks */,
+				FAB02B3A1F2C460C004B9277 /* GLUT.framework in Frameworks */,
+				FAB02B381F2C4604004B9277 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7A2E631F2C3CB00050D25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7A2E6E1F2C3CB00050D25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7A2E471F2C3CB00050D25B = {
+			isa = PBXGroup;
+			children = (
+				FAB02B491F2C4C04004B9277 /* libGLTools.a */,
+				FAB02B241F2C45E2004B9277 /* include */,
+				FA7A2E521F2C3CB00050D25B /* MyOpenGLCoco */,
+				FA7A2E691F2C3CB00050D25B /* MyOpenGLCocoTests */,
+				FA7A2E741F2C3CB00050D25B /* MyOpenGLCocoUITests */,
+				FA7A2E511F2C3CB00050D25B /* Products */,
+				FAB02B361F2C4604004B9277 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7A2E511F2C3CB00050D25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A2E501F2C3CB00050D25B /* MyOpenGLCoco.app */,
+				FA7A2E661F2C3CB00050D25B /* MyOpenGLCocoTests.xctest */,
+				FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7A2E521F2C3CB00050D25B /* MyOpenGLCoco */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */,
+				FA7A2E611F2C3CB00050D25B /* Info.plist */,
+				FA7A2E561F2C3CB00050D25B /* Supporting Files */,
+			);
+			path = MyOpenGLCoco;
+			sourceTree = "<group>";
+		};
+		FA7A2E561F2C3CB00050D25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A2E571F2C3CB00050D25B /* main.cpp */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7A2E691F2C3CB00050D25B /* MyOpenGLCocoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A2E6A1F2C3CB00050D25B /* MyOpenGLCocoTests.m */,
+				FA7A2E6C1F2C3CB00050D25B /* Info.plist */,
+			);
+			path = MyOpenGLCocoTests;
+			sourceTree = "<group>";
+		};
+		FA7A2E741F2C3CB00050D25B /* MyOpenGLCocoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A2E751F2C3CB00050D25B /* MyOpenGLCocoUITests.m */,
+				FA7A2E771F2C3CB00050D25B /* Info.plist */,
+			);
+			path = MyOpenGLCocoUITests;
+			sourceTree = "<group>";
+		};
+		FAB02B241F2C45E2004B9277 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FAB02B251F2C45E2004B9277 /* GL */,
+				FAB02B291F2C45E2004B9277 /* GLBatch.h */,
+				FAB02B2A1F2C45E2004B9277 /* GLBatchBase.h */,
+				FAB02B2B1F2C45E2004B9277 /* GLFrame.h */,
+				FAB02B2C1F2C45E2004B9277 /* GLFrustum.h */,
+				FAB02B2D1F2C45E2004B9277 /* GLGeometryTransform.h */,
+				FAB02B2E1F2C45E2004B9277 /* GLMatrixStack.h */,
+				FAB02B2F1F2C45E2004B9277 /* GLShaderManager.h */,
+				FAB02B301F2C45E2004B9277 /* GLTools.h */,
+				FAB02B311F2C45E2004B9277 /* GLTriangleBatch.h */,
+				FAB02B321F2C45E2004B9277 /* math3d.h */,
+				FAB02B331F2C45E2004B9277 /* StopWatch.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FAB02B251F2C45E2004B9277 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				FAB02B261F2C45E2004B9277 /* glew.h */,
+				FAB02B271F2C45E2004B9277 /* glxew.h */,
+				FAB02B281F2C45E2004B9277 /* wglew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		FAB02B361F2C4604004B9277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB02B391F2C460C004B9277 /* GLUT.framework */,
+				FAB02B371F2C4604004B9277 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7A2E4F1F2C3CB00050D25B /* MyOpenGLCoco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7A2E7A1F2C3CB00050D25B /* Build configuration list for PBXNativeTarget "MyOpenGLCoco" */;
+			buildPhases = (
+				FA7A2E4C1F2C3CB00050D25B /* Sources */,
+				FA7A2E4D1F2C3CB00050D25B /* Frameworks */,
+				FA7A2E4E1F2C3CB00050D25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOpenGLCoco;
+			productName = MyOpenGLCoco;
+			productReference = FA7A2E501F2C3CB00050D25B /* MyOpenGLCoco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7A2E651F2C3CB00050D25B /* MyOpenGLCocoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7A2E7D1F2C3CB00050D25B /* Build configuration list for PBXNativeTarget "MyOpenGLCocoTests" */;
+			buildPhases = (
+				FA7A2E621F2C3CB00050D25B /* Sources */,
+				FA7A2E631F2C3CB00050D25B /* Frameworks */,
+				FA7A2E641F2C3CB00050D25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7A2E681F2C3CB00050D25B /* PBXTargetDependency */,
+			);
+			name = MyOpenGLCocoTests;
+			productName = MyOpenGLCocoTests;
+			productReference = FA7A2E661F2C3CB00050D25B /* MyOpenGLCocoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7A2E701F2C3CB00050D25B /* MyOpenGLCocoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7A2E801F2C3CB00050D25B /* Build configuration list for PBXNativeTarget "MyOpenGLCocoUITests" */;
+			buildPhases = (
+				FA7A2E6D1F2C3CB00050D25B /* Sources */,
+				FA7A2E6E1F2C3CB00050D25B /* Frameworks */,
+				FA7A2E6F1F2C3CB00050D25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7A2E731F2C3CB00050D25B /* PBXTargetDependency */,
+			);
+			name = MyOpenGLCocoUITests;
+			productName = MyOpenGLCocoUITests;
+			productReference = FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7A2E481F2C3CB00050D25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lichong;
+				TargetAttributes = {
+					FA7A2E4F1F2C3CB00050D25B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FA7A2E651F2C3CB00050D25B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA7A2E4F1F2C3CB00050D25B;
+					};
+					FA7A2E701F2C3CB00050D25B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA7A2E4F1F2C3CB00050D25B;
+					};
+				};
+			};
+			buildConfigurationList = FA7A2E4B1F2C3CB00050D25B /* Build configuration list for PBXProject "MyOpenGLCoco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7A2E471F2C3CB00050D25B;
+			productRefGroup = FA7A2E511F2C3CB00050D25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7A2E4F1F2C3CB00050D25B /* MyOpenGLCoco */,
+				FA7A2E651F2C3CB00050D25B /* MyOpenGLCocoTests */,
+				FA7A2E701F2C3CB00050D25B /* MyOpenGLCocoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7A2E4E1F2C3CB00050D25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7A2E5D1F2C3CB00050D25B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7A2E641F2C3CB00050D25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7A2E6F1F2C3CB00050D25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7A2E4C1F2C3CB00050D25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7A2E581F2C3CB00050D25B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7A2E621F2C3CB00050D25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7A2E6B1F2C3CB00050D25B /* MyOpenGLCocoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7A2E6D1F2C3CB00050D25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7A2E761F2C3CB00050D25B /* MyOpenGLCocoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7A2E681F2C3CB00050D25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7A2E4F1F2C3CB00050D25B /* MyOpenGLCoco */;
+			targetProxy = FA7A2E671F2C3CB00050D25B /* PBXContainerItemProxy */;
+		};
+		FA7A2E731F2C3CB00050D25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7A2E4F1F2C3CB00050D25B /* MyOpenGLCoco */;
+			targetProxy = FA7A2E721F2C3CB00050D25B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA7A2E781F2C3CB00050D25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA7A2E791F2C3CB00050D25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA7A2E7B1F2C3CB00050D25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/include",
+					"$(inherited)$(PROJECT_DIR)/include/GL",
+				);
+				INFOPLIST_FILE = MyOpenGLCoco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA7A2E7C1F2C3CB00050D25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/include",
+					"$(inherited)$(PROJECT_DIR)/include/GL",
+				);
+				INFOPLIST_FILE = MyOpenGLCoco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA7A2E7E1F2C3CB00050D25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyOpenGLCocoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCocoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOpenGLCoco.app/Contents/MacOS/MyOpenGLCoco";
+			};
+			name = Debug;
+		};
+		FA7A2E7F1F2C3CB00050D25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyOpenGLCocoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCocoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOpenGLCoco.app/Contents/MacOS/MyOpenGLCoco";
+			};
+			name = Release;
+		};
+		FA7A2E811F2C3CB00050D25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyOpenGLCocoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCocoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyOpenGLCoco;
+			};
+			name = Debug;
+		};
+		FA7A2E821F2C3CB00050D25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyOpenGLCocoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCocoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyOpenGLCoco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7A2E4B1F2C3CB00050D25B /* Build configuration list for PBXProject "MyOpenGLCoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7A2E781F2C3CB00050D25B /* Debug */,
+				FA7A2E791F2C3CB00050D25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7A2E7A1F2C3CB00050D25B /* Build configuration list for PBXNativeTarget "MyOpenGLCoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7A2E7B1F2C3CB00050D25B /* Debug */,
+				FA7A2E7C1F2C3CB00050D25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7A2E7D1F2C3CB00050D25B /* Build configuration list for PBXNativeTarget "MyOpenGLCocoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7A2E7E1F2C3CB00050D25B /* Debug */,
+				FA7A2E7F1F2C3CB00050D25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7A2E801F2C3CB00050D25B /* Build configuration list for PBXNativeTarget "MyOpenGLCocoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7A2E811F2C3CB00050D25B /* Debug */,
+				FA7A2E821F2C3CB00050D25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7A2E481F2C3CB00050D25B /* Project object */;
+}
