@@ -19,10 +19,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Chapter3_8_Primitives.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>MyOpenGLCoco.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>blog_cxx_01.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -43,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>FA856A3F1F2DDF67005F6179</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA856A551F2E22B3005F6179</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA856A6A1F2E334B005F6179</key>
 		<dict>
 			<key>primary</key>
 			<true/>
