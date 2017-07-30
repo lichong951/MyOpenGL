@@ -24,6 +24,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////
 // An assortment of needed classes
+//着色器管理器
 GLShaderManager		shaderManager;
 GLMatrixStack		modelViewMatrix;
 GLMatrixStack		projectionMatrix;
@@ -244,10 +245,10 @@ void SetupRC()
     GLbyte *pBytes;
     GLint nWidth, nHeight, nComponents;
     GLenum format;
-    
+    //初始化着色器管理器
     shaderManager.InitializeStockShaders();
     
-    // Black background
+    // 为色彩缓冲区指定用于清除的值
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f );
     glEnable(GL_DEPTH_TEST);
     glLineWidth(2.5f);
@@ -596,6 +597,7 @@ void ChangeSize(int w, int h)
 ///////////////////////////////////////////////////////////////////////////////
 // Main entry point for GLUT based programs
 int main(int argc,char * argv[]) {
+    //设置当前工作目录，针对MAC OS X
     gltSetWorkingDirectory(argv[0]);
     
     glutInit(&argc, argv);
