@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>blog_cxx_02.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>FA856A6A1F2E334B005F6179</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA856A781F2E3683005F6179</key>
 		<dict>
 			<key>primary</key>
 			<true/>
