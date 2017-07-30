@@ -57,7 +57,7 @@ void SpecialKeys(int key,int x,int y){
     if(key==GLUT_KEY_RIGHT)
         blockX+=stepSize;
     
-    //Collision detection
+    //Collision detection 碰撞检测，防止移出窗口范围
     if(blockX<-1.0f) blockX=-1.0f;
     if (blockX>(1.0f-blockSize*2))
         blockX=1.0f-blockSize*2;
@@ -131,6 +131,7 @@ int main(int argc,char * argv[]) {
     //注册回调函数
     glutReshapeFunc(ChangeSize);
     glutDisplayFunc(RenderScene);
+    //特别按键回调事件
     glutSpecialFunc(SpecialKeys);
     //调用SetupRC
     SetupRC();

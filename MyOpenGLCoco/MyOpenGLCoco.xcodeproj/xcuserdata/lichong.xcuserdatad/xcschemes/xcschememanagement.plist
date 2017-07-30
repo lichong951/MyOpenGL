@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Chapter02_3_Bounce.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>MyOpenGLCoco.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>FA7A2E701F2C3CB00050D25B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA856A3F1F2DDF67005F6179</key>
 		<dict>
 			<key>primary</key>
 			<true/>

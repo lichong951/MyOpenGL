@@ -10,6 +10,12 @@
 		FA7A2E581F2C3CB00050D25B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7A2E571F2C3CB00050D25B /* main.cpp */; };
 		FA7A2E6B1F2C3CB00050D25B /* MyOpenGLCocoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A2E6A1F2C3CB00050D25B /* MyOpenGLCocoTests.m */; };
 		FA7A2E761F2C3CB00050D25B /* MyOpenGLCocoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A2E751F2C3CB00050D25B /* MyOpenGLCocoUITests.m */; };
+		FA856A3E1F2DDF45005F6179 /* Chapter02_2_Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB02B901F2C97A4004B9277 /* Chapter02_2_Move.cpp */; };
+		FA856A431F2DDF67005F6179 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
+		FA856A441F2DDF67005F6179 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
+		FA856A451F2DDF67005F6179 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
+		FA856A521F2DDFEE005F6179 /* Chapter02_3_Move-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA856A511F2DDFEE005F6179 /* Chapter02_3_Move-Info.plist */; };
+		FA856A541F2DE025005F6179 /* Chapter02_3_Bounce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA856A531F2DE025005F6179 /* Chapter02_3_Bounce.cpp */; };
 		FAB02B381F2C4604004B9277 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
 		FAB02B3A1F2C460C004B9277 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
 		FAB02B4A1F2C4C04004B9277 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
@@ -17,7 +23,6 @@
 		FAB02B861F2C9213004B9277 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
 		FAB02B871F2C9213004B9277 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
 		FAB02B891F2C9213004B9277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */; };
-		FAB02B921F2C97DA004B9277 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB02B901F2C97A4004B9277 /* Move.cpp */; };
 		FAB02B971F2CE4EB004B9277 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
 		FAB02B981F2CE4EB004B9277 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
 		FAB02B991F2CE4EB004B9277 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
@@ -66,12 +71,16 @@
 		FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOpenGLCocoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7A2E751F2C3CB00050D25B /* MyOpenGLCocoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLCocoUITests.m; sourceTree = "<group>"; };
 		FA7A2E771F2C3CB00050D25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA856A4F1F2DDF67005F6179 /* Chapter02_3_Move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter02_3_Move.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA856A501F2DDF67005F6179 /* Chapter02_2_Move copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Chapter02_2_Move copy-Info.plist"; path = "/Users/lichong/Documents/openGL/code/MyOpenGLCoco/Chapter02_2_Move copy-Info.plist"; sourceTree = "<absolute>"; };
+		FA856A511F2DDFEE005F6179 /* Chapter02_3_Move-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chapter02_3_Move-Info.plist"; sourceTree = "<group>"; };
+		FA856A531F2DE025005F6179 /* Chapter02_3_Bounce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter02_3_Bounce.cpp; sourceTree = "<group>"; };
 		FAB02B371F2C4604004B9277 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		FAB02B391F2C460C004B9277 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		FAB02B491F2C4C04004B9277 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
 		FAB02B8D1F2C9213004B9277 /* Chapter02_2_Move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter02_2_Move.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB02B8E1F2C938F004B9277 /* Chapter02_2_Move-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chapter02_2_Move-Info.plist"; sourceTree = "<group>"; };
-		FAB02B901F2C97A4004B9277 /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Move.cpp; sourceTree = "<group>"; };
+		FAB02B901F2C97A4004B9277 /* Chapter02_2_Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter02_2_Move.cpp; sourceTree = "<group>"; };
 		FAB02B9F1F2CE4EB004B9277 /* Chapter01_1_Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter01_1_Block.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB02BA01F2CE57C004B9277 /* Chapter01_1_Block-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chapter01_1_Block-Info.plist"; sourceTree = "<group>"; };
 		FAB02BA21F2CE738004B9277 /* Chapter01_1_Block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter01_1_Block.cpp; sourceTree = "<group>"; };
@@ -126,6 +135,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA856A421F2DDF67005F6179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA856A431F2DDF67005F6179 /* libGLTools.a in Frameworks */,
+				FA856A441F2DDF67005F6179 /* GLUT.framework in Frameworks */,
+				FA856A451F2DDF67005F6179 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAB02B841F2C9213004B9277 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +178,7 @@
 				FA7A2E741F2C3CB00050D25B /* MyOpenGLCocoUITests */,
 				FA7A2E511F2C3CB00050D25B /* Products */,
 				FAB02B361F2C4604004B9277 /* Frameworks */,
+				FA856A501F2DDF67005F6179 /* Chapter02_2_Move copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +190,7 @@
 				FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */,
 				FAB02B8D1F2C9213004B9277 /* Chapter02_2_Move.app */,
 				FAB02B9F1F2CE4EB004B9277 /* Chapter01_1_Block.app */,
+				FA856A4F1F2DDF67005F6179 /* Chapter02_3_Move.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +198,7 @@
 		FA7A2E521F2C3CB00050D25B /* MyOpenGLCoco */ = {
 			isa = PBXGroup;
 			children = (
+				FA856A511F2DDFEE005F6179 /* Chapter02_3_Move-Info.plist */,
 				FAB02BA01F2CE57C004B9277 /* Chapter01_1_Block-Info.plist */,
 				FAB02B8E1F2C938F004B9277 /* Chapter02_2_Move-Info.plist */,
 				FA7A2E5C1F2C3CB00050D25B /* Assets.xcassets */,
@@ -191,8 +213,9 @@
 			children = (
 				FAB02BE41F2CFDF3004B9277 /* tga */,
 				FA7A2E571F2C3CB00050D25B /* main.cpp */,
-				FAB02B901F2C97A4004B9277 /* Move.cpp */,
+				FAB02B901F2C97A4004B9277 /* Chapter02_2_Move.cpp */,
 				FAB02BA21F2CE738004B9277 /* Chapter01_1_Block.cpp */,
+				FA856A531F2DE025005F6179 /* Chapter02_3_Bounce.cpp */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -342,6 +365,23 @@
 			productReference = FA7A2E711F2C3CB00050D25B /* MyOpenGLCocoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FA856A3F1F2DDF67005F6179 /* Chapter02_3_Move */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA856A4C1F2DDF67005F6179 /* Build configuration list for PBXNativeTarget "Chapter02_3_Move" */;
+			buildPhases = (
+				FA856A401F2DDF67005F6179 /* Sources */,
+				FA856A421F2DDF67005F6179 /* Frameworks */,
+				FA856A461F2DDF67005F6179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter02_3_Move;
+			productName = MyOpenGLCoco;
+			productReference = FA856A4F1F2DDF67005F6179 /* Chapter02_3_Move.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FAB02B811F2C9213004B9277 /* Chapter02_2_Move */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB02B8A1F2C9213004B9277 /* Build configuration list for PBXNativeTarget "Chapter02_2_Move" */;
@@ -419,6 +459,7 @@
 				FA7A2E701F2C3CB00050D25B /* MyOpenGLCocoUITests */,
 				FAB02B811F2C9213004B9277 /* Chapter02_2_Move */,
 				FAB02B931F2CE4EB004B9277 /* Chapter01_1_Block */,
+				FA856A3F1F2DDF67005F6179 /* Chapter02_3_Move */,
 			);
 		};
 /* End PBXProject section */
@@ -431,6 +472,7 @@
 				FAB02BEC1F2CFDF3004B9277 /* Block5.tga in Resources */,
 				FAB02BF21F2CFDF3004B9277 /* floor.tga in Resources */,
 				FAB02BEF1F2CFDF3004B9277 /* Block6.tga in Resources */,
+				FA856A521F2DDFEE005F6179 /* Chapter02_3_Move-Info.plist in Resources */,
 				FAB02BE91F2CFDF3004B9277 /* Block4.tga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +485,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FA7A2E6F1F2C3CB00050D25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA856A461F2DDF67005F6179 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,11 +548,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA856A401F2DDF67005F6179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA856A541F2DE025005F6179 /* Chapter02_3_Bounce.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAB02B821F2C9213004B9277 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB02B921F2C97DA004B9277 /* Move.cpp in Sources */,
+				FA856A3E1F2DDF45005F6179 /* Chapter02_2_Move.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +769,44 @@
 			};
 			name = Release;
 		};
+		FA856A4D1F2DDF67005F6179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=2",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(GLTOOLS_INCLUDS)";
+				INFOPLIST_FILE = "MyOpenGLCoco/Chapter02_3_Move-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA856A4E1F2DDF67005F6179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(GLTOOLS_INCLUDS)";
+				INFOPLIST_FILE = "MyOpenGLCoco/Chapter02_3_Move-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FAB02B8B1F2C9213004B9277 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -823,6 +918,15 @@
 			buildConfigurations = (
 				FA7A2E811F2C3CB00050D25B /* Debug */,
 				FA7A2E821F2C3CB00050D25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA856A4C1F2DDF67005F6179 /* Build configuration list for PBXNativeTarget "Chapter02_3_Move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA856A4D1F2DDF67005F6179 /* Debug */,
+				FA856A4E1F2DDF67005F6179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
