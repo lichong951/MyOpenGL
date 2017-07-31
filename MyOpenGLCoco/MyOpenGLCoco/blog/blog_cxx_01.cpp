@@ -34,6 +34,7 @@ void ChangeSize(int w,int h)
 }
 void SetupRC()
 {
+    //背景颜色
     glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
     shaderManager.InitializeStockShaders();
     GLfloat vVerts[] = {
