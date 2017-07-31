@@ -44,10 +44,20 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>blog_cxx_04.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>FA5EB6731F2EBA3B00F434F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5EB6891F2EC31400F434F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
