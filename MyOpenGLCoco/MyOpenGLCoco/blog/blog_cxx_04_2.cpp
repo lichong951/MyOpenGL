@@ -8,7 +8,7 @@
 
 /**
  直线点画模式(其实就是画虚线)
- 
+ //@link http://blog.csdn.net/u010223072/article/details/44416333
  */
 #include "GLTools.h"
 #include "GLShaderManager.h"

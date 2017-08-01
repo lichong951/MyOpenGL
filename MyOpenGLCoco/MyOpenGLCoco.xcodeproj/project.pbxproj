@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA42DB681F300D5A000E419B /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
+		FA42DB691F300D5A000E419B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
+		FA42DB6A1F300D5A000E419B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
+		FA42DB721F300D95000E419B /* blog_cxx_05_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA42DB711F300D95000E419B /* blog_cxx_05_1.cpp */; };
+		FA42DB741F300E34000E419B /* blog_cxx_05_1-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA42DB731F300E34000E419B /* blog_cxx_05_1-Info.plist */; };
+		FA42DB771F300E3E000E419B /* blog_cxx_04_2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA42DB751F300E3E000E419B /* blog_cxx_04_2-Info.plist */; };
+		FA42DB781F300E3E000E419B /* blog_cxx_04_3-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA42DB761F300E3E000E419B /* blog_cxx_04_3-Info.plist */; };
 		FA5EB6771F2EBA3B00F434F5 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
 		FA5EB6781F2EBA3B00F434F5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
 		FA5EB6791F2EBA3B00F434F5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
@@ -93,6 +100,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA42DB6F1F300D5A000E419B /* blog_cxx_05_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blog_cxx_05_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA42DB701F300D5A000E419B /* blog_cxx_04_3 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "blog_cxx_04_3 copy-Info.plist"; path = "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/blog_cxx_04_3 copy-Info.plist"; sourceTree = "<absolute>"; };
+		FA42DB711F300D95000E419B /* blog_cxx_05_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blog_cxx_05_1.cpp; sourceTree = "<group>"; };
+		FA42DB731F300E34000E419B /* blog_cxx_05_1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "blog_cxx_05_1-Info.plist"; sourceTree = "<group>"; };
+		FA42DB751F300E3E000E419B /* blog_cxx_04_2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "blog_cxx_04_2-Info.plist"; sourceTree = "<group>"; };
+		FA42DB761F300E3E000E419B /* blog_cxx_04_3-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "blog_cxx_04_3-Info.plist"; sourceTree = "<group>"; };
 		FA5EB67E1F2EBA3B00F434F5 /* blog_cxx_03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blog_cxx_03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5EB67F1F2EBA3B00F434F5 /* blog_cxx_02 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "blog_cxx_02 copy-Info.plist"; path = "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/blog_cxx_02 copy-Info.plist"; sourceTree = "<absolute>"; };
 		FA5EB6801F2EBA8200F434F5 /* blog_cxx_03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blog_cxx_03.cpp; sourceTree = "<group>"; };
@@ -168,6 +181,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA42DB671F300D5A000E419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42DB681F300D5A000E419B /* libGLTools.a in Frameworks */,
+				FA42DB691F300D5A000E419B /* GLUT.framework in Frameworks */,
+				FA42DB6A1F300D5A000E419B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA5EB6761F2EBA3B00F434F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +321,9 @@
 		FA5EB6821F2EBAB200F434F5 /* plist */ = {
 			isa = PBXGroup;
 			children = (
+				FA42DB751F300E3E000E419B /* blog_cxx_04_2-Info.plist */,
+				FA42DB761F300E3E000E419B /* blog_cxx_04_3-Info.plist */,
+				FA42DB731F300E34000E419B /* blog_cxx_05_1-Info.plist */,
 				FA5EB6981F2EC3D400F434F5 /* blog_cxx_04-Info.plist */,
 				FA5EB6871F2EBADE00F434F5 /* blog_cxx_03-Info.plist */,
 				FA5EB6831F2EBAB200F434F5 /* blog_cxx_01-Info.plist */,
@@ -324,6 +350,7 @@
 				FA5EB6951F2EC31400F434F5 /* blog_cxx_03 copy-Info.plist */,
 				FA5EB6A61F2EC75100F434F5 /* blog_cxx_04 copy-Info.plist */,
 				FA5EB6B51F2ECD0F00F434F5 /* blog_cxx_04_2 copy-Info.plist */,
+				FA42DB701F300D5A000E419B /* blog_cxx_04_3 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,6 +370,7 @@
 				FA5EB6941F2EC31400F434F5 /* blog_cxx_04.app */,
 				FA5EB6A51F2EC75100F434F5 /* blog_cxx_04_2.app */,
 				FA5EB6B41F2ECD0F00F434F5 /* blog_cxx_04_3.app */,
+				FA42DB6F1F300D5A000E419B /* blog_cxx_05_1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -402,6 +430,7 @@
 				FA5EB6961F2EC36C00F434F5 /* blog_cxx_04.cpp */,
 				FA5EB6A71F2EC78000F434F5 /* blog_cxx_04_2.cpp */,
 				FA5EB6B61F2ECD4400F434F5 /* blog_cxx_04_3.cpp */,
+				FA42DB711F300D95000E419B /* blog_cxx_05_1.cpp */,
 			);
 			path = blog;
 			sourceTree = "<group>";
@@ -480,6 +509,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA42DB641F300D5A000E419B /* blog_cxx_05_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA42DB6C1F300D5A000E419B /* Build configuration list for PBXNativeTarget "blog_cxx_05_1" */;
+			buildPhases = (
+				FA42DB651F300D5A000E419B /* Sources */,
+				FA42DB671F300D5A000E419B /* Frameworks */,
+				FA42DB6B1F300D5A000E419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blog_cxx_05_1;
+			productName = MyOpenGLCoco;
+			productReference = FA42DB6F1F300D5A000E419B /* blog_cxx_05_1.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FA5EB6731F2EBA3B00F434F5 /* blog_cxx_03 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5EB67B1F2EBA3B00F434F5 /* Build configuration list for PBXNativeTarget "blog_cxx_03" */;
@@ -754,11 +800,19 @@
 				FA5EB6891F2EC31400F434F5 /* blog_cxx_04 */,
 				FA5EB69A1F2EC75100F434F5 /* blog_cxx_04_2 */,
 				FA5EB6A91F2ECD0F00F434F5 /* blog_cxx_04_3 */,
+				FA42DB641F300D5A000E419B /* blog_cxx_05_1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA42DB6B1F300D5A000E419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA5EB67A1F2EBA3B00F434F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -792,12 +846,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB02BEC1F2CFDF3004B9277 /* Block5.tga in Resources */,
+				FA42DB771F300E3E000E419B /* blog_cxx_04_2-Info.plist in Resources */,
 				FA5EB6881F2EBADE00F434F5 /* blog_cxx_03-Info.plist in Resources */,
 				FA5EB6851F2EBAB200F434F5 /* blog_cxx_01-Info.plist in Resources */,
 				FA5EB6991F2EC3D500F434F5 /* blog_cxx_04-Info.plist in Resources */,
 				FA5EB6861F2EBAB200F434F5 /* blog_cxx_02-Info.plist in Resources */,
+				FA42DB781F300E3E000E419B /* blog_cxx_04_3-Info.plist in Resources */,
 				FAB02BF21F2CFDF3004B9277 /* floor.tga in Resources */,
 				FAB02BEF1F2CFDF3004B9277 /* Block6.tga in Resources */,
+				FA42DB741F300E34000E419B /* blog_cxx_05_1-Info.plist in Resources */,
 				FA856A521F2DDFEE005F6179 /* Chapter02_3_Move-Info.plist in Resources */,
 				FAB02BE91F2CFDF3004B9277 /* Block4.tga in Resources */,
 			);
@@ -871,6 +928,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA42DB651F300D5A000E419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42DB721F300D95000E419B /* blog_cxx_05_1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA5EB6741F2EBA3B00F434F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -993,6 +1058,50 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FA42DB6D1F300D5A000E419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=2",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/GLTools/include",
+					"$(inherited)$(PROJECT_DIR)/GLTools/include/GL",
+				);
+				INFOPLIST_FILE = "MyOpenGLCoco/blog/plist/blog_cxx_05_1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA42DB6E1F300D5A000E419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/GLTools/include",
+					"$(inherited)$(PROJECT_DIR)/GLTools/include/GL",
+				);
+				INFOPLIST_FILE = "MyOpenGLCoco/blog/plist/blog_cxx_05_1-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FA5EB67C1F2EBA3B00F434F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1615,6 +1724,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA42DB6C1F300D5A000E419B /* Build configuration list for PBXNativeTarget "blog_cxx_05_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42DB6D1F300D5A000E419B /* Debug */,
+				FA42DB6E1F300D5A000E419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA5EB67B1F2EBA3B00F434F5 /* Build configuration list for PBXNativeTarget "blog_cxx_03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

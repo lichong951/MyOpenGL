@@ -7,6 +7,8 @@
 //
 
 //多边形的点画模式
+//@link http://blog.csdn.net/u010223072/article/details/44416333
+
 #include "GLTools.h"
 #include "GLShaderManager.h"
 

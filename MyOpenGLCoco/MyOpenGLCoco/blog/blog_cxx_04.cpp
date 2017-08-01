@@ -5,7 +5,7 @@
 //  Created by lichong on 2017/7/31.
 //  Copyright © 2017年 lichong. All rights reserved.
 //
-
+//@link http://blog.csdn.net/u010223072/article/details/44416333
 #include "GLTools.h"
 #include "GLShaderManager.h"
 
