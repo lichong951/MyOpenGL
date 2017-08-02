@@ -560,7 +560,7 @@ void RenderScene(void)
     modelViewMatrix.PopMatrix();
     
     
-    // Flush drawing commands
+   //后台缓冲区交换到前台缓冲区显示
     glutSwapBuffers();
 }
 
@@ -587,6 +587,7 @@ void KeyPressFunc(unsigned char key, int x, int y)
 // to use the window dimensions to set the viewport and the projection matrix.
 void ChangeSize(int w, int h)
 {
+    //设置视口，即显示区域
     glViewport(0, 0, w, h);
     viewFrustum.SetPerspective(35.0f, float(w) / float(h), 1.0f, 500.0f);
     projectionMatrix.LoadMatrix(viewFrustum.GetProjectionMatrix());

@@ -170,6 +170,7 @@ void RenderScene(void)
 //回调函数 窗口改变
 void ChangeSize(int w, int h)
 {
+    //设置视口，即显示区域
     glViewport(0, 0, w, h);
     viewFrustum.SetPerspective(35.0f, float(w) / float(h), 1.0f, 500.0f);
     projectionMatrix.LoadMatrix(viewFrustum.GetProjectionMatrix());

@@ -104,6 +104,7 @@ void RenderScene(void)
 // to use the window dimensions to set the viewport and the projection matrix.
 void ChangeSize(int w, int h)
 {
+    //设置视口，即显示区域
     glViewport(0, 0, w, h);
 }
 

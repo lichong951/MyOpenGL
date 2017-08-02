@@ -80,6 +80,10 @@
 		FAB02BF21F2CFDF3004B9277 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = FAB02BE81F2CFDF3004B9277 /* floor.tga */; };
 		FAB02BF31F2CFDF3004B9277 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = FAB02BE81F2CFDF3004B9277 /* floor.tga */; };
 		FAB02BF41F2CFDF3004B9277 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = FAB02BE81F2CFDF3004B9277 /* floor.tga */; };
+		FAB1A03F1F31AAED00474ECB /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B491F2C4C04004B9277 /* libGLTools.a */; };
+		FAB1A0401F31AAED00474ECB /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B391F2C460C004B9277 /* GLUT.framework */; };
+		FAB1A0411F31AAED00474ECB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB02B371F2C4604004B9277 /* OpenGL.framework */; };
+		FAB1A0491F31AB2000474ECB /* blog_cxx_05_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB1A0481F31AB2000474ECB /* blog_cxx_05_2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +182,9 @@
 		FAB02BE61F2CFDF3004B9277 /* Block5.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Block5.tga; sourceTree = "<group>"; };
 		FAB02BE71F2CFDF3004B9277 /* Block6.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Block6.tga; sourceTree = "<group>"; };
 		FAB02BE81F2CFDF3004B9277 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		FAB1A0461F31AAED00474ECB /* blog_cxx_05_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blog_cxx_05_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB1A0471F31AAED00474ECB /* blog_cxx_05_1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "blog_cxx_05_1 copy-Info.plist"; path = "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/blog_cxx_05_1 copy-Info.plist"; sourceTree = "<absolute>"; };
+		FAB1A0481F31AB2000474ECB /* blog_cxx_05_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blog_cxx_05_2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +322,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAB1A03E1F31AAED00474ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB1A03F1F31AAED00474ECB /* libGLTools.a in Frameworks */,
+				FAB1A0401F31AAED00474ECB /* GLUT.framework in Frameworks */,
+				FAB1A0411F31AAED00474ECB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -351,6 +368,7 @@
 				FA5EB6A61F2EC75100F434F5 /* blog_cxx_04 copy-Info.plist */,
 				FA5EB6B51F2ECD0F00F434F5 /* blog_cxx_04_2 copy-Info.plist */,
 				FA42DB701F300D5A000E419B /* blog_cxx_04_3 copy-Info.plist */,
+				FAB1A0471F31AAED00474ECB /* blog_cxx_05_1 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -371,6 +389,7 @@
 				FA5EB6A51F2EC75100F434F5 /* blog_cxx_04_2.app */,
 				FA5EB6B41F2ECD0F00F434F5 /* blog_cxx_04_3.app */,
 				FA42DB6F1F300D5A000E419B /* blog_cxx_05_1.app */,
+				FAB1A0461F31AAED00474ECB /* blog_cxx_05_2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -431,6 +450,7 @@
 				FA5EB6A71F2EC78000F434F5 /* blog_cxx_04_2.cpp */,
 				FA5EB6B61F2ECD4400F434F5 /* blog_cxx_04_3.cpp */,
 				FA42DB711F300D95000E419B /* blog_cxx_05_1.cpp */,
+				FAB1A0481F31AB2000474ECB /* blog_cxx_05_2.cpp */,
 			);
 			path = blog;
 			sourceTree = "<group>";
@@ -749,6 +769,23 @@
 			productReference = FAB02B9F1F2CE4EB004B9277 /* Chapter01_1_Block.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FAB1A03B1F31AAED00474ECB /* blog_cxx_05_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB1A0431F31AAED00474ECB /* Build configuration list for PBXNativeTarget "blog_cxx_05_2" */;
+			buildPhases = (
+				FAB1A03C1F31AAED00474ECB /* Sources */,
+				FAB1A03E1F31AAED00474ECB /* Frameworks */,
+				FAB1A0421F31AAED00474ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blog_cxx_05_2;
+			productName = MyOpenGLCoco;
+			productReference = FAB1A0461F31AAED00474ECB /* blog_cxx_05_2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -801,6 +838,7 @@
 				FA5EB69A1F2EC75100F434F5 /* blog_cxx_04_2 */,
 				FA5EB6A91F2ECD0F00F434F5 /* blog_cxx_04_3 */,
 				FA42DB641F300D5A000E419B /* blog_cxx_05_1 */,
+				FAB1A03B1F31AAED00474ECB /* blog_cxx_05_2 */,
 			);
 		};
 /* End PBXProject section */
@@ -925,6 +963,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAB1A0421F31AAED00474ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1039,6 +1084,14 @@
 				FAB02BDF1F2CF62A004B9277 /* GLBatch.cpp in Sources */,
 				FAB02BDE1F2CF538004B9277 /* GLTools.cpp in Sources */,
 				FAB02BA31F2CE738004B9277 /* Chapter01_1_Block.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB1A03C1F31AAED00474ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB1A0491F31AB2000474ECB /* blog_cxx_05_2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1721,6 +1774,50 @@
 			};
 			name = Release;
 		};
+		FAB1A0441F31AAED00474ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=2",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/GLTools/include",
+					"$(inherited)$(PROJECT_DIR)/GLTools/include/GL",
+				);
+				INFOPLIST_FILE = "MyOpenGLCoco/blog/plist/blog_cxx_05_2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB1A0451F31AAED00474ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)$(PROJECT_DIR)/GLTools/include",
+					"$(inherited)$(PROJECT_DIR)/GLTools/include/GL",
+				);
+				INFOPLIST_FILE = "MyOpenGLCoco/blog/plist/blog_cxx_05_2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.lc951.MyOpenGLCoco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1855,6 +1952,15 @@
 			buildConfigurations = (
 				FAB02B9D1F2CE4EB004B9277 /* Debug */,
 				FAB02B9E1F2CE4EB004B9277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB1A0431F31AAED00474ECB /* Build configuration list for PBXNativeTarget "blog_cxx_05_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB1A0441F31AAED00474ECB /* Debug */,
+				FAB1A0451F31AAED00474ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

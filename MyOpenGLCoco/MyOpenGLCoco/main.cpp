@@ -19,6 +19,7 @@ GLShaderManager shaderManager;
 //窗口大小改变时接受新的宽度和高度，其中0,0代表窗口中视口的左下角坐标，w，h代表像素
 void ChangeSize(int w,int h)
 {
+    //设置视口，即显示区域
     glViewport(0, 0, w, h);
 }
 //为程序作一次性的设置

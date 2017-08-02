@@ -30,6 +30,7 @@ GLShaderManager		shaderManager;
 
 void ChangeSize(int w,int h)
 {
+    //设置视口，即显示区域
     glViewport(0, 0, w, h);
 }
 void SetupRC()
@@ -52,6 +53,7 @@ void RenderScene(void)
     GLfloat vRed[] = {1.0f,0.0f,0.0f,1.0f};
     shaderManager.UseStockShader(GLT_SHADER_IDENTITY,vRed);
     triangleBatch.Draw();
+    //后台缓冲区交换到前台缓冲区显示
     glutSwapBuffers();
 }
 
