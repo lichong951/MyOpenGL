@@ -69,9 +69,39 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>blog_cxx_06_2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>blog_cxx_06_3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>blog_cxx_06_4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FA304F1C1F36F3C1008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA304F2F1F36F95C008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA304F401F371777008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FA42DB641F300D5A000E419B</key>
 		<dict>
 			<key>primary</key>
