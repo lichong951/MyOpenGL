@@ -49,7 +49,35 @@ GLfloat lightSpecular[] = { 0.9f, 0.9f, 0.9f };
 GLfloat vLightPos[] = { -8.0f, 20.0f, 100.0f, 1.0f };
 
 GLuint textures[4];
-
+////文件读取(将本地shader文件读取为字符串形式加载)
+char *textFileRead(char *fn)
+{
+    FILE *fp;
+    char *content = NULL;
+    
+    long count=0;
+    
+    if (fn != NULL)
+    {
+        fp = fopen(fn,"rt");
+        
+        if (fp != NULL)
+        {
+            fseek(fp, 0, SEEK_END);
+            count = ftell(fp);
+            rewind(fp);
+            
+            if (count > 0)
+            {
+                content = (char *)malloc(sizeof(char) * (count+1));
+                count = fread(content,sizeof(char),count,fp);
+                content[count] = '\0';
+            }
+            fclose(fp);
+        }
+    }
+    return content;
+}
 ///////////////////////////////////////////////////////////////////////////////
 // Make a cube out of a batch of triangles. Texture coordinates and normals
 // are also provided.
@@ -327,9 +355,10 @@ void SetupRC()
     
     // Load up four textures
     glGenTextures(4, textures);
-    
+    char *vs=NULL;
+    vs=textFileRead("blog/shader/minimal.vert");
     // Wood floor
-    pBytes = gltReadTGABits("/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/floor.tga", &nWidth, &nHeight, &nComponents, &format);
+    pBytes = gltReadTGABits("tga/floor.tga", &nWidth, &nHeight, &nComponents, &format);
     glBindTexture(GL_TEXTURE_2D, textures[0]);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -340,7 +369,8 @@ void SetupRC()
     free(pBytes);
     
     // One of the block faces
-    pBytes = gltReadTGABits("/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/Block4.tga", &nWidth, &nHeight, &nComponents, &format);
+    
+    pBytes = gltReadTGABits("tga/Block4.tga", &nWidth, &nHeight, &nComponents, &format);
     glBindTexture(GL_TEXTURE_2D, textures[1]);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -351,7 +381,7 @@ void SetupRC()
     free(pBytes);
     
     // Another block face
-    pBytes = gltReadTGABits("/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/block5.tga", &nWidth, &nHeight, &nComponents, &format);
+    pBytes = gltReadTGABits("tga/block5.tga", &nWidth, &nHeight, &nComponents, &format);
     glBindTexture(GL_TEXTURE_2D, textures[2]);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -362,7 +392,7 @@ void SetupRC()
     free(pBytes);
     
     // Yet another block face
-    pBytes = gltReadTGABits("/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/block6.tga", &nWidth, &nHeight, &nComponents, &format);
+    pBytes = gltReadTGABits("tga/block6.tga", &nWidth, &nHeight, &nComponents, &format);
     glBindTexture(GL_TEXTURE_2D, textures[3]);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -372,6 +402,9 @@ void SetupRC()
                  format, GL_UNSIGNED_BYTE, pBytes);
     free(pBytes);
 }
+
+
+
 ///////////////////////////////////////////////////////////////////////////////
 // Render the block
 void RenderBlock(void)

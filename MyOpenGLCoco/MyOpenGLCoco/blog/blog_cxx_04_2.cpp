@@ -25,7 +25,7 @@ glVertex2f(x1, y1);  glVertex2f(x2, y2);    glEnd();
 
 void init()
 {
-    //背景颜色
+    //清除一个或一组特定的缓冲区
     glClearColor(0.0, 0.0, 0.0, 0.0);
     /*设置着色模式：GL_FLAT：恒定着色，用某个顶点颜色来渲染整个图元
      GL_SMOOTH：光滑着色，独立的处理图元中各个顶点的颜色。*/
