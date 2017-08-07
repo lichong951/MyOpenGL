@@ -27,7 +27,7 @@ void init(void){
     /*方向性光源(最后参数为0)：光源位于无限远处，当光线到达物体表面时，可以认为所有光线都是平行的。如太阳光
      位置性光源(最后参数非零)：不同角度位置光照强度不同，表现更加逼真。如聚光灯*/
      GLfloat light_position[] = { 1.0, 1.0, 1.0, 0.0 };
-   //清除一个或一组特定的缓冲区
+   // 为色彩缓冲区指定用于清除的值
     glClearColor (0.0, 0.0, 0.0, 0.0);
     glShadeModel (GL_SMOOTH);
     
@@ -45,6 +45,7 @@ void init(void){
     //激活光照并启动0号光源(启动了就会有默认属性)
     glEnable(GL_LIGHTING);
     glEnable(GL_LIGHT0);
+    //开启深度测试
     glEnable(GL_DEPTH_TEST);
     
 }

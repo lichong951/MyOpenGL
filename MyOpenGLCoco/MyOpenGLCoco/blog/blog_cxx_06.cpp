@@ -20,6 +20,7 @@
 #endif
 
 void init(void){
+    // 为色彩缓冲区指定用于清除的值
     glClearColor(0.0, 0.0, 0.0, 0.0);
     glShadeModel(GL_FLAT);
 }

@@ -42,7 +42,7 @@ static GLubyte indices[]={
 };
 
 void init(){
-    //清除一个或一组特定的缓冲区
+   // 为色彩缓冲区指定用于清除的值
     glClearColor(0.0, 0.0, 0.0, 0.0);
     //多边形背部使用线条描框  
     glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
