@@ -38,7 +38,7 @@ void display(){
 
 void init()
 {
-    //背景颜色
+    //清除一个或一组特定的缓冲区
     glClearColor(0.0, 0.0, 1.0, 0.0);
     /**
      GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）

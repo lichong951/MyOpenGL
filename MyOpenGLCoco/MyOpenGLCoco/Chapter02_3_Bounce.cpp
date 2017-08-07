@@ -31,7 +31,7 @@ GLfloat vVerts[] = { -blockSize - 0.5f, -blockSize, 0.0f,
 // This function does any needed initialization on the rendering context.
 // This is the first opportunity to do any OpenGL related tasks.
 void SetupRC(){
-    //设置背影颜色
+   //清除一个或一组特定的缓冲区
     glClearColor(0.0f,0.0f,1.0f,1.0f);
     //初始化着色管理器
     shaderManager.InitializeStockShaders();

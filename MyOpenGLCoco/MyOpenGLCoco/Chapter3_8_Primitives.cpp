@@ -48,7 +48,7 @@ int nStep = 0;
 // This function does any needed initialization on the rendering context.
 // This is the first opportunity to do any OpenGL related tasks.
 void SetupRC(){
-    //为色彩缓冲区指定用于清除的值
+    //清除一个或一组特定的缓冲区
     glClearColor(0.7f, 0.7f, 0.7f, 1.0f);
     //初始化着色管理器
     shaderManager.InitializeStockShaders();

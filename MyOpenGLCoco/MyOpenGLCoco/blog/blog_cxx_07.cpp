@@ -158,7 +158,7 @@ int main(int argc,char **argv){
     glutReshapeFunc(changeSize);
     //开启深度测试
     glEnable(GL_DEPTH_TEST);
-    //背景颜色
+    //清除一个或一组特定的缓冲区
     glClearColor(1.0,1.0,1.0,1.0);
     //glEnable(GL_CULL_FACE);
     //渲染环境检测
