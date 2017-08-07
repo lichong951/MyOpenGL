@@ -7,77 +7,117 @@
 		<key>Chapter01_1_Block.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>13</integer>
 		</dict>
 		<key>Chapter02_2_Move.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>14</integer>
 		</dict>
 		<key>Chapter02_3_Bounce.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Chapter3_8_Primitives.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>16</integer>
 		</dict>
 		<key>MyOpenGLCoco.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>17</integer>
 		</dict>
 		<key>blog_cxx_01.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>0</integer>
 		</dict>
 		<key>blog_cxx_02.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>1</integer>
 		</dict>
 		<key>blog_cxx_03.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>2</integer>
 		</dict>
 		<key>blog_cxx_04.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>3</integer>
 		</dict>
 		<key>blog_cxx_04_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>4</integer>
 		</dict>
 		<key>blog_cxx_04_3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>5</integer>
 		</dict>
 		<key>blog_cxx_05_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>6</integer>
 		</dict>
 		<key>blog_cxx_05_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>7</integer>
 		</dict>
 		<key>blog_cxx_06.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>18</integer>
+		</dict>
+		<key>blog_cxx_06_2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>blog_cxx_06_3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>blog_cxx_06_4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>blog_cxx_07.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FA1AEFAA1F355DCD0003CCDB</key>
+		<key>FA1AEFBB1F3800A80003CCDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA304F1C1F36F3C1008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA304F2F1F36F95C008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA304F401F371777008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA304F501F372133008BC8F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -138,21 +178,6 @@
 			<true/>
 		</dict>
 		<key>FA856A781F2E3683005F6179</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAB02B4E1F2C8F35004B9277</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAB02B631F2C8F36004B9277</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAB02B6E1F2C8F36004B9277</key>
 		<dict>
 			<key>primary</key>
 			<true/>

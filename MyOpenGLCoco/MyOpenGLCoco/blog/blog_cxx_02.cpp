@@ -40,7 +40,7 @@ void init()
 {
     //背景颜色
     glClearColor(0.0, 0.0, 1.0, 0.0);
-    ////指定当前矩阵（一般与glLoadIdentity一起使用）
+    //指定当前矩阵（一般与glLoadIdentity一起使用）
     glMatrixMode(GL_PROJECTION);
     //重置当前指定的矩阵为单位矩阵,类似于一个复位操作
     glLoadIdentity();
