@@ -5,7 +5,8 @@
 //  Created by lichong on 2017/8/7.
 //  Copyright © 2017年 lichong. All rights reserved.
 //
-
+////////////////////////////////光源的移动
+//http://blog.csdn.net/u010223072/article/details/44975185
 #include "GLTools.h"
 #include "GLShaderManager.h"
 
@@ -18,7 +19,7 @@
 
 static int spin=0;
 void init(void){
-    //清除一个或一组特定的缓冲区
+    // 为色彩缓冲区指定用于清除的值
     glClearColor (0.0, 0.0, 0.0, 0.0);
     /*设置着色模式：GL_FLAT：恒定着色，用某个顶点颜色来渲染整个图元
      GL_SMOOTH：光滑着色，独立的处理图元中各个顶点的颜色。*/

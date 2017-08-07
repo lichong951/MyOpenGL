@@ -35,7 +35,7 @@ void ChangeSize(int w,int h)
 }
 void SetupRC()
 {
-    //清除一个或一组特定的缓冲区
+    // 为色彩缓冲区指定用于清除的值
     glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
     shaderManager.InitializeStockShaders();
     GLfloat vVerts[] = {

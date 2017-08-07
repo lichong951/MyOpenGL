@@ -18,7 +18,7 @@
 static GLfloat angle=0.0;
 
 void display(){
-    //清除颜色缓冲区
+    ///清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     /*矩阵堆栈，可以消除上一次的变换对本次变换的影响，一系列像平移，旋转，
      缩放等的矩阵变换操作放在它们之间可以简化操作，不然每次改变都要重新
@@ -36,7 +36,7 @@ void display(){
    
 }
 void init(){
-     //清除一个或一组特定的缓冲区
+     // 为色彩缓冲区指定用于清除的值
     glClearColor(0.0, 0.0, 0.0, 0.0);
     /*设置着色模式：GL_FLAT：恒定着色，用某个顶点颜色来渲染整个图元
      GL_SMOOTH：光滑着色，独立的处理图元中各个顶点的颜色。*/
@@ -58,6 +58,8 @@ void reshape(int w,int h){
     if (w<=h) {//设置视景体与视口宽高比例一致，这样改变窗口大小，物体也不会变形
         glOrtho(-50.0, 50.0, -50.0 * (GLfloat)h/(GLfloat)w, 50.0 * (GLfloat)h/(GLfloat)w, -1.0, 1.0);
     }else{
+        /*正交投影（Xmin, Xmax, Ymin, Ymax, Zmin, Zmax）,参数指定了投影的长方体，
+         这个函数简单理解起来，就是一个物体摆在那里，你怎么去截取他。*/
         glOrtho(-50.0*(GLfloat)w/(GLfloat)h, 50*(GLfloat)w/(GLfloat)h, -50, 50, -1.0, 1.0);
     }
     /**
