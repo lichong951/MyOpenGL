@@ -31,16 +31,16 @@ void init(void){
     glClearColor (0.0, 0.0, 0.0, 0.0);
     glShadeModel (GL_SMOOTH);
     
-    /*设置材料与光源属性*/
+    /*设置材料与光源属性*/ //材料的镜面颜色
      glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
     glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
     //光源位置
     glLightfv(GL_LIGHT0, GL_POSITION, light_position);
     //环境光
     glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);
-     //散射光
+     //材料的散射颜色
     glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);
-    //镜面强度
+    //镜面强度 //材料的镜面颜色
     glLightfv(GL_LIGHT0, GL_SPECULAR, light_specular);
     //激活光照并启动0号光源(启动了就会有默认属性)
     glEnable(GL_LIGHTING);

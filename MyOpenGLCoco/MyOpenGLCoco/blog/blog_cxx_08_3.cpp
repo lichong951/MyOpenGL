@@ -31,7 +31,9 @@ void init(void)
     glShadeModel(GL_SMOOTH);
     //光源属性
     glLightfv(GL_LIGHT0, GL_AMBIENT, ambient);
+    //材料的散射颜色
     glLightfv(GL_LIGHT0, GL_DIFFUSE, diffuse);
+    //光源位置
     glLightfv(GL_LIGHT0, GL_POSITION, position);
     //光照模型
     glLightModelfv(GL_LIGHT_MODEL_AMBIENT, lmodel_ambient);//环境光强度
