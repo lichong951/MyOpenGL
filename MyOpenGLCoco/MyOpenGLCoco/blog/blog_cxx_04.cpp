@@ -22,7 +22,7 @@ const GLfloat factor=0.3f;
 void display(void)
 {
     GLfloat x;
-    //清除颜色缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     //线段
     glBegin(GL_LINES);

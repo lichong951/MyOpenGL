@@ -21,17 +21,27 @@
 static int day=200;
 void display()
 {
-    //清除颜色缓冲区 深度缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     //开启深度测试
     glEnable(GL_DEPTH_TEST);
-    //指定当前矩阵（一般与glLoadIdentity一起使用）
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     //重置当前指定的矩阵为单位矩阵,类似于一个复位操作
     glLoadIdentity();
     /*透视投影,参数：角度，宽高比，近平面，远平面*/
     gluPerspective(75, 1, 1, 400);
-    //接下来的矩阵操作设置为模型操作,即平移，旋转，缩放等操作
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_MODELVIEW);
     //重置当前指定的矩阵为单位矩阵,类似于一个复位操作
     glLoadIdentity();

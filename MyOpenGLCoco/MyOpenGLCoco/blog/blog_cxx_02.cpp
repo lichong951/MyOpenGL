@@ -18,7 +18,7 @@
 #endif
 
 void display(){
-    //清除颜色缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
      //设置颜色
     glColor3f(1.0,0.0,0.0);
@@ -40,7 +40,12 @@ void init()
 {
     //背景颜色
     glClearColor(0.0, 0.0, 1.0, 0.0);
-    //指定当前矩阵（一般与glLoadIdentity一起使用）
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     //重置当前指定的矩阵为单位矩阵,类似于一个复位操作
     glLoadIdentity();

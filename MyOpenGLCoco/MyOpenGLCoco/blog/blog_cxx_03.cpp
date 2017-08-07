@@ -36,7 +36,7 @@ void display(){
    
 }
 void init(){
-    //背景颜色
+     //清除一个或一组特定的缓冲区
     glClearColor(0.0, 0.0, 0.0, 0.0);
     /*设置着色模式：GL_FLAT：恒定着色，用某个顶点颜色来渲染整个图元
      GL_SMOOTH：光滑着色，独立的处理图元中各个顶点的颜色。*/
@@ -46,7 +46,12 @@ void init(){
 void reshape(int w,int h){
     //设置视口，即显示区域
     glViewport(0, 0, (GLsizei)w, (GLsizei)h);
-    //设置矩阵操作模式，简单的说就是设置状态，接下来将要进行投影矩阵的操作
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);//指定当前矩阵（一般与glLoadIdentity一起使用）
     glLoadIdentity();
     //glOrtho(-50.0, 50.0, -50.0, 50.0, -1.0, 1.0); //参数设置的是视景体
@@ -55,7 +60,12 @@ void reshape(int w,int h){
     }else{
         glOrtho(-50.0*(GLfloat)w/(GLfloat)h, 50*(GLfloat)w/(GLfloat)h, -50, 50, -1.0, 1.0);
     }
-    //接下来的矩阵操作设置为模型操作,即平移，旋转，缩放等操作
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 }

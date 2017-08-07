@@ -71,18 +71,28 @@ void reshape(int w,int h){
     //设置视口，即显示区域
     glViewport(0, 0, w, h);
     GLfloat fAspect=(GLfloat)w/(GLfloat)h;
-    ////指定当前矩阵（一般与glLoadIdentity一起使用）
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     /*透视投影,参数：角度，宽高比，近平面，远平面*/
     gluPerspective(35.0f, fAspect, 1.0f, 100.0f);
-    //接下来的矩阵操作设置为模型操作,即平移，旋转，缩放等操作
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 }
 
 void display(void){
-    //背景颜色
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     //设置颜色
     glColor3f(0.0f, 0.0f, 1.0f);

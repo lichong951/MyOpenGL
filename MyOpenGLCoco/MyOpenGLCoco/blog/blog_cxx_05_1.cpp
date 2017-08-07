@@ -35,7 +35,7 @@ static GLfloat colors[] = {
 
 void display(void)
 {
-    //清除颜色缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     //第三步：解引用和渲染 //绘制三角形
     glBegin(GL_TRIANGLES);
@@ -84,9 +84,12 @@ void reshape(int w,int h)
 {
     //设置视口，即显示区域
     glViewport(0, 0, (GLsizei) w, (GLsizei) h);
-    /*顶点位置坐标，经过变换矩阵的变换，得到的坐标，才会真的拿去绘制，
-     所以这里的矩阵变换不能省。*/
-    glMatrixMode(GL_PROJECTION);
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */    glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     //参数设置的是视景体
     gluOrtho2D(0.0, (GLdouble) w, 0.0, (GLdouble) h);

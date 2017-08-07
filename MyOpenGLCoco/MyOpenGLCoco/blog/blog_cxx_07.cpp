@@ -58,7 +58,12 @@ void changeSize(int w,int h){
         h=1;
     }
     float ratio=1.0*w/h;
-    //指定当前矩阵（一般与glLoadIdentity一起使用）
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     //重置当前指定的矩阵为单位矩阵,类似于一个复位操作
     glLoadIdentity();
@@ -66,15 +71,19 @@ void changeSize(int w,int h){
     glViewport(0, 0, w, h);
     /*透视投影,参数：角度，宽高比，近平面，远平面*/
     gluPerspective(45, ratio, 1, 1000);
-    /*顶点位置坐标，经过变换矩阵的变换，得到的坐标，才会真的拿去绘制，
-     所以这里的矩阵变换不能省。*/
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_MODELVIEW);
     
 }
 
 float time=0;
 void renderScene(void){
-    //清除颜色缓冲区 深度缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     //初始化了gl_Color值，可给着色器使用
     glColor4f(1.0, 0.0, 0.0, 1.0);

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA304F501F372133008BC8F8"
-               BuildableName = "blog_cxx_07.app"
-               BlueprintName = "blog_cxx_07"
+               BlueprintIdentifier = "FA1AEFCF1F38037D0003CCDB"
+               BuildableName = "blog_cxx_08_1.app"
+               BlueprintName = "blog_cxx_08_1"
                ReferencedContainer = "container:MyOpenGLCoco.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA304F501F372133008BC8F8"
-            BuildableName = "blog_cxx_07.app"
-            BlueprintName = "blog_cxx_07"
+            BlueprintIdentifier = "FA1AEFCF1F38037D0003CCDB"
+            BuildableName = "blog_cxx_08_1.app"
+            BlueprintName = "blog_cxx_08_1"
             ReferencedContainer = "container:MyOpenGLCoco.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -46,8 +46,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/MyOpenGLCoco"
+      useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -56,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA304F501F372133008BC8F8"
-            BuildableName = "blog_cxx_07.app"
-            BlueprintName = "blog_cxx_07"
+            BlueprintIdentifier = "FA1AEFCF1F38037D0003CCDB"
+            BuildableName = "blog_cxx_08_1.app"
+            BlueprintName = "blog_cxx_08_1"
             ReferencedContainer = "container:MyOpenGLCoco.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA304F501F372133008BC8F8"
-            BuildableName = "blog_cxx_07.app"
-            BlueprintName = "blog_cxx_07"
+            BlueprintIdentifier = "FA1AEFCF1F38037D0003CCDB"
+            BuildableName = "blog_cxx_08_1.app"
+            BlueprintName = "blog_cxx_08_1"
             ReferencedContainer = "container:MyOpenGLCoco.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

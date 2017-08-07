@@ -49,6 +49,7 @@ void SetupRC()
 }
 void RenderScene(void)
 {
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
     GLfloat vRed[] = {1.0f,0.0f,0.0f,1.0f};
     shaderManager.UseStockShader(GLT_SHADER_IDENTITY,vRed);

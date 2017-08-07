@@ -32,7 +32,7 @@ void init(void)
 
 /*把握一点，opengl是一个状态机，所有的操作都是在改变状态而已*/
 void display(void){
-    //清除颜色缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     /*矩阵堆栈，可以消除上一次的变换对本次变换的影响，一系列像平移，旋转，
      缩放等的矩阵变换操作放在它们之间可以简化操作，不然每次改变都要重新
@@ -86,9 +86,21 @@ void display(void){
 void reshape(int w,int h)
 {
     glViewport(0, 0, (GLsizei)w, (GLsizei)h);
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluPerspective(65.0, (GLfloat) w/(GLfloat) h, 1.0, 20.0);
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
     glTranslatef(0.0, 0.0, -5.0);

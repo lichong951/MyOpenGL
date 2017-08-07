@@ -25,6 +25,7 @@ void init(void){
 }
 
 void display(void){
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(1.0, 1.0, 1.0);
     //矩阵操作之前一般把当前矩阵设置为单位矩阵
@@ -45,14 +46,24 @@ void reshape(int w,int h){
     //视口变换
     //最终在屏幕上显示的大小
     glViewport(0, 0, (GLsizei) w, (GLsizei) h);
-    //设置当前矩阵为投影矩形
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     //投影变换
     //glFrustum (-1.0, 1.0, -1.0, 1.0, 1.5, 20.0);
     /*设置视景体，将3维坐标投影到2维屏幕坐标*/
     gluPerspective(60.0, 1, 1.5, 20.0);
-    //设置当前矩阵为模型视图矩阵
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_MODELVIEW);
 }
 

@@ -33,7 +33,7 @@ void init()
 }
 
 void display(){
-    //清除颜色缓冲区
+     //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     //设置颜色
     glColor3f(1.0, 0.0, 0.0);
@@ -72,7 +72,12 @@ void reshape(int w,int h)
 {
     //设置视口，即显示区域
     glViewport(0, 0, (GLsizei) w, (GLsizei) h);
-    //设置矩阵操作模式，简单的说就是设置状态，接下来将要进行投影矩阵的操作
+    /**
+     GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
+     GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。
+     GL_TEXTURE： 把其后的矩阵操作施加于纹理矩阵栈。
+     http://blog.csdn.net/u013720169/article/details/19675181
+     */
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     //参数设置的是视景体
