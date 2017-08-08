@@ -43,7 +43,7 @@ void SetupRC()
         0.5f,0.0f,0.0f,
         0.0f,0.5f,0.0f,
     };
-    triangleBatch.Begin(GL_TRIANGLES,3);
+    triangleBatch.Begin(GL_TRIANGLES,3);//绘制三角形
     triangleBatch.CopyVertexData3f(vVerts);
     triangleBatch.End();
 }

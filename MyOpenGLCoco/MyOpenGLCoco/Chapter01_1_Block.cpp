@@ -83,7 +83,7 @@ char *textFileRead(char *fn)
 // are also provided.
 void MakeCube(GLBatch& cubeBatch)
 {
-    cubeBatch.Begin(GL_TRIANGLES, 36, 1);
+    cubeBatch.Begin(GL_TRIANGLES, 36, 1);//绘制三角形
     
     /////////////////////////////////////////////
     // Top of cube
