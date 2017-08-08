@@ -86,6 +86,11 @@ void renderScene(void){
      //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     //初始化了gl_Color值，可给着色器使用
+    /**
+     （1）有光照时：像素点最终颜色P1的alpha恒为1，P1的RGB=像素RGB*光照RGB。
+     
+     （2）无光照时：像素点最终颜色P1的alpha为glColor4f()的alpha值，P1的RGB=像素RGB*glColor4f()的RGB。
+     */
     glColor4f(1.0, 0.0, 0.0, 1.0);
     //重置当前指定的矩阵为单位矩阵,类似于一个复位操作
     glLoadIdentity();

@@ -119,6 +119,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>blog_cxx_09_2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -163,6 +168,11 @@
 			<true/>
 		</dict>
 		<key>FA3E76B21F3862470033A888</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA3E76C11F399AB70033A888</key>
 		<dict>
 			<key>primary</key>
 			<true/>
