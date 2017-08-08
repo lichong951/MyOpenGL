@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyOpenGLCoco/Chapter01_1_Block.cpp"
-            timestampString = "523788735.271055"
+            timestampString = "523870977.274353"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "360"
-            endingLineNumber = "360"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
             landmarkName = "SetupRC()"
             landmarkType = "9">
          </BreakpointContent>

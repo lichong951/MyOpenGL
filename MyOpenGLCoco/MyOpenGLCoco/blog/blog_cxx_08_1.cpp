@@ -33,6 +33,7 @@ void init(void){
     
     /*设置材料与光源属性*/ //材料的镜面颜色
      glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
+    //镜面指数
     glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
     //光源位置
     glLightfv(GL_LIGHT0, GL_POSITION, light_position);
