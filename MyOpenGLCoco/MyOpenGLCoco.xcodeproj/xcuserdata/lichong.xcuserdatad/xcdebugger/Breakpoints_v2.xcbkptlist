@@ -26,22 +26,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyOpenGLCoco/blog/blog_cxx_11_2.cpp"
-            timestampString = "523889772.99375"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
-            landmarkName = "main(int argc, char** argv)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MyOpenGLCoco/blog/blog_cxx_11_2.cpp"
             timestampString = "523889778.584652"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
