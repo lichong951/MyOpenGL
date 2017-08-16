@@ -18,7 +18,7 @@
 #include <GL/glut.h>
 #endif
 
-GLuint list;
+GLuint list;//正整形
 GLint spinx = 0;
 GLint spiny = 0;
 GLfloat tdist = 0.0;

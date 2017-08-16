@@ -21,8 +21,8 @@
 #define FREEGLUT_STATIC
 #endif
 
-GLuint v,f,f2,p;
-GLuint loc;
+GLuint v,f,f2,p;//正整形
+GLuint loc;//正整形
 
 ////文件读取(将本地shader文件读取为字符串形式加载)
 char *textFileRead(char *fn)

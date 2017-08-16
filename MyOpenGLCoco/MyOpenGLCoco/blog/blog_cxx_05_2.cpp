@@ -18,7 +18,7 @@
 #define VERTICES 0
 #define INDECES 1
 #define NUM_DUFFERS 2
-GLuint buffers[NUM_DUFFERS];
+GLuint buffers[NUM_DUFFERS];//正整形
 
 static GLfloat vertices[] ={
     -1.0f, -1.0f, -5.0f, //前面的正方形

@@ -20,7 +20,7 @@
 
 #define PI_ 3.14159265358979323846
 
-GLuint theTorus;
+GLuint theTorus;//正整形
 //绘制圆环
 static void torus(int numc, int numt)
 {

@@ -24,7 +24,7 @@
 
 static float solidZ = MAXZ;
 static float transparentZ = MINZ;
-static GLuint sphereList, cubeList;
+static GLuint sphereList, cubeList;//正整形
 
 static void init(void)
 {
