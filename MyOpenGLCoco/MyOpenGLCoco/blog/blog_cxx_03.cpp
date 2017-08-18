@@ -78,8 +78,8 @@ void spinDisplay(){
         angle=angle-360.0;
         
     }
-    //重新绘制窗口
-    glutPostRedisplay();
+    
+    glutPostRedisplay();//重新绘制窗口
 }
 
 void mouse(int button,int state,int x,int y){
