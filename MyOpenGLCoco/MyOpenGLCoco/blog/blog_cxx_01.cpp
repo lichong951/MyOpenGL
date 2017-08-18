@@ -30,8 +30,8 @@ GLShaderManager		shaderManager;
 
 void ChangeSize(int w,int h)
 {
-    //设置视口，即显示区域
-    glViewport(0, 0, w, h);
+    
+    glViewport(0, 0, w, h);//设置视口，即显示区域
 }
 void SetupRC()
 {

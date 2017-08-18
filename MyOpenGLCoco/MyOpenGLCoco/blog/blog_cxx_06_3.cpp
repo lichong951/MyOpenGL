@@ -23,8 +23,8 @@ void display()
 {
      //清除一个或一组特定的缓冲区
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-    //开启深度测试
-    glEnable(GL_DEPTH_TEST);
+    
+    glEnable(GL_DEPTH_TEST);//开启深度测试
     /**
      GL_MODELVIEW: 把其后的矩阵操作施加于造型视图矩阵栈。（默认）
      GL_PROJECTION: 把其后的矩阵操作施加于投影矩阵栈。

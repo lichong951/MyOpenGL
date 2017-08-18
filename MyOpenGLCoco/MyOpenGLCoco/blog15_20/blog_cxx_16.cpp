@@ -5,6 +5,8 @@
 //  Created by lichong on 2017/8/18.
 //  Copyright © 2017年 lichong. All rights reserved.
 //
+////////////////////////////////图像
+//http://blog.csdn.net/u010223072/article/details/45059019
 
 #include <stdio.h>
 #include "GLTools.h"
