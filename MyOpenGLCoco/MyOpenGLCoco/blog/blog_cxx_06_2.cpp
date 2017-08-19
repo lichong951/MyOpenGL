@@ -35,7 +35,7 @@ void display(void){
      设置矩阵模式*/
     glPushMatrix();
     //Z轴负方向平移5个单位
-    glTranslatef(0.0, 0.0, -5.0);
+    glTranslatef(0.0, 0.0, -5.0);//平移
     
     /* 裁剪掉y < 0 的部分 */
     glClipPlane(GL_CLIP_PLANE0, eqn);

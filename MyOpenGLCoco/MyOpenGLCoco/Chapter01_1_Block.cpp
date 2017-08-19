@@ -83,7 +83,7 @@ char *textFileRead(char *fn)
 // are also provided.
 void MakeCube(GLBatch& cubeBatch)
 {
-    cubeBatch.Begin(GL_TRIANGLES, 36, 1);
+    cubeBatch.Begin(GL_TRIANGLES, 36, 1);//绘制三角形
     
     /////////////////////////////////////////////
     // Top of cube
@@ -281,6 +281,7 @@ void SetupRC()
     //开启深度测试
     glEnable(GL_DEPTH_TEST);
     glLineWidth(2.5f);
+    //设置源因子与目标因子取值
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
     
@@ -572,6 +573,7 @@ void RenderScene(void)
         RenderBlock();
         modelViewMatrix.PopMatrix();
         glEnable(GL_BLEND);
+        //设置源因子与目标因子取值
         glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         RenderFloor();
         glDisable(GL_BLEND);

@@ -18,7 +18,16 @@
 #else
 #define FREEGLUT_STATIC
 #endif
-
+//        GL_POINTS       //点
+//        GL_LINES        //线段
+//        GL_LINE_STRIP   //多段线
+//        GL_LINE_LOOP    //线圈
+//        GL_TRIANGLES    //三角形
+//        GL_TRIANGLE_STRIP //三角形条带
+//        GL_TRIANGLE_FAN   //三角形扇
+//        GL_QUADS          //四边形
+//        GL_QUAD_STRIP     //四边形条带
+//        GL_POLYGON        //多边形(凸)
 //带参宏定义画线
 #define drawOneLine(x1, y1, x2, y2) glBegin(GL_LINES);  \
 glVertex2f(x1, y1);  glVertex2f(x2, y2);    glEnd();

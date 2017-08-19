@@ -30,27 +30,27 @@ GLShaderManager		shaderManager;
 
 void ChangeSize(int w,int h)
 {
-    //设置视口，即显示区域
-    glViewport(0, 0, w, h);
+    
+    glViewport(0, 0, w, h);//设置视口，即显示区域
 }
 void SetupRC()
 {
-    // 为色彩缓冲区指定用于清除的值
-    glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
+    
+    glClearColor(0.0f, 0.0f, 1.0f, 1.0f);// 为色彩缓冲区指定用于清除的值
     shaderManager.InitializeStockShaders();
     GLfloat vVerts[] = {
         -0.5f,0.0f,0.0f,
         0.5f,0.0f,0.0f,
         0.0f,0.5f,0.0f,
     };
-    triangleBatch.Begin(GL_TRIANGLES,3);
+    triangleBatch.Begin(GL_TRIANGLES,3);//绘制三角形
     triangleBatch.CopyVertexData3f(vVerts);
     triangleBatch.End();
 }
 void RenderScene(void)
 {
-     //清除一个或一组特定的缓冲区
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
+    
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);//清除一个或一组特定的缓冲区
     GLfloat vRed[] = {1.0f,0.0f,0.0f,1.0f};
     shaderManager.UseStockShader(GLT_SHADER_IDENTITY,vRed);
     triangleBatch.Draw();
