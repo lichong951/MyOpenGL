@@ -28,7 +28,7 @@ void SetupRC()
     //设置背影颜色
     glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
     //初始化着色管理器
-    shaderManager.InitializeStockShaders();
+    shaderManager.InitializeStockShaders();//初始化着色器管理器
     //设置三角形，其中数组vVert包含所有3个顶点的x,y,笛卡尔坐标对。
     GLfloat vVerts[] = {
         -0.5f,0.0f,0.0f,

@@ -34,7 +34,7 @@ void SetupRC(){
    // 为色彩缓冲区指定用于清除的值
     glClearColor(0.0f,0.0f,1.0f,1.0f);
     //初始化着色管理器
-    shaderManager.InitializeStockShaders();
+    shaderManager.InitializeStockShaders();//初始化着色器管理器
     //批次处理 参数4代表顶点个数
     squareBatch.Begin(GL_TRIANGLE_FAN, 4);
     squareBatch.CopyVertexData3f(vVerts);

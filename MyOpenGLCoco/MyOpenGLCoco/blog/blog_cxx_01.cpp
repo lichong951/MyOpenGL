@@ -37,7 +37,7 @@ void SetupRC()
 {
     
     glClearColor(0.0f, 0.0f, 1.0f, 1.0f);// 为色彩缓冲区指定用于清除的值
-    shaderManager.InitializeStockShaders();
+    shaderManager.InitializeStockShaders();//初始化着色器管理器
     GLfloat vVerts[] = {
         -0.5f,0.0f,0.0f,
         0.5f,0.0f,0.0f,

@@ -51,7 +51,7 @@ void SetupRC(){
    // 为色彩缓冲区指定用于清除的值
     glClearColor(0.7f, 0.7f, 0.7f, 1.0f);
     //初始化着色管理器
-    shaderManager.InitializeStockShaders();
+    shaderManager.InitializeStockShaders();//初始化着色器管理器
     //绘制深度检测
     glEnable(GL_DEPTH_TEST);
     //
