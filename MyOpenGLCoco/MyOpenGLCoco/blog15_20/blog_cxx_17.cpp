@@ -157,7 +157,7 @@ void init(void)
     
     //读取tga图像数据
     pBits =
-    gltReadTGABits("tga/floor.tga", &nWidth, &nHeight, &nComponents, &eFormat);
+    gltReadTGABits("/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/MyOpenGLCoco/tga/floor.tga", &nWidth, &nHeight, &nComponents, &eFormat);
     
     if(pBits == NULL)
         printf("tga load failed");
