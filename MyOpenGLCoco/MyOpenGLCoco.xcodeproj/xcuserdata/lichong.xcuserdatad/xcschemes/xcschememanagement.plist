@@ -184,6 +184,31 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
+		<key>blog_cxx_19.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
+		<key>blog_cxx_20.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
+		<key>blog_cxx_21.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
+		<key>blog_cxx_22.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
+		<key>blog_cxx_23.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -213,6 +238,11 @@
 			<true/>
 		</dict>
 		<key>FA304F501F372133008BC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA3D1B7A1F4D0E63008C3952</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -373,6 +403,26 @@
 			<true/>
 		</dict>
 		<key>FAF200A71F468E1C00875B23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF200C31F4ABF3900875B23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF200D51F4AC0EB00875B23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF200F31F4AC87B00875B23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF201041F4AD1BA00875B23</key>
 		<dict>
 			<key>primary</key>
 			<true/>
