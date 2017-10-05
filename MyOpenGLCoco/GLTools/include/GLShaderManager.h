@@ -93,7 +93,7 @@ class GLShaderManager
 		~GLShaderManager(void);
 		
 		// Call before using
-		bool InitializeStockShaders(void);
+		bool InitializeStockShaders(void);//初始化着色器管理器
 	
 		// Find one of the standard stock shaders and return it's shader handle. 
 		GLuint GetStockShader(GLT_STOCK_SHADER nShaderID);

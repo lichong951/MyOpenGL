@@ -315,7 +315,7 @@ GLShaderManager::~GLShaderManager(void)
 	
 ///////////////////////////////////////////////////////////////////////////////
 // Initialize and load the stock shaders
-bool GLShaderManager::InitializeStockShaders(void)
+bool GLShaderManager::InitializeStockShaders(void)//初始化着色器管理器
 	{
 	// Be warned, going over 128 shaders may cause a
 	// hickup for a reallocation.
