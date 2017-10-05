@@ -54,8 +54,8 @@ void RenderScene(void)
     GLfloat vRed[] = {1.0f,0.0f,0.0f,1.0f};
     shaderManager.UseStockShader(GLT_SHADER_IDENTITY,vRed);
     triangleBatch.Draw();
-    //后台缓冲区交换到前台缓冲区显示
-    glutSwapBuffers();
+    
+    glutSwapBuffers();//后台缓冲区交换到前台缓冲区显示
 }
 
 int main(int argc, char* argv[])

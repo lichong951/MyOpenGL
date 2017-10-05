@@ -20,6 +20,12 @@
 #include <GL/glut.h>
 #endif
 #include <stdio.h>
+
+////////////////////////////////多级纹理
+//http://blog.csdn.net/u010223072/article/details/45167539
+
+
+
 /*注释：如果gltReadTGABits读取失败，可以自己定义这个接口，具体的定义前面章节有*/
 /*tga图片头信息结构*/
 #pragma pack(1)//结构体字节对齐
@@ -163,9 +169,9 @@ GLfloat             viewZ = -65.0f;
 #define TEXTURE_COUNT   3
 GLuint  textures[TEXTURE_COUNT];
 const char *szTextureFiles[TEXTURE_COUNT] = {
-    "/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/brick.tga",
-    "/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/floor.tga",
-    "/Users/lichong/Documents/openGL/code/MyOpenGLCoco/MyOpenGLCoco/tga/ceiling.tga" };
+    "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/MyOpenGLCoco/tga/brick.tga",
+    "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/MyOpenGLCoco/tga/floor.tga",
+    "/Users/lichong/Documents/openGL/code/MyOpenGL/MyOpenGLCoco/MyOpenGLCoco/tga/ceiling.tga" };
 
 // 设置纹理过滤方式
 void ProcessMenu(int value)

@@ -7,27 +7,27 @@
 		<key>Chapter01_1_Block.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>40</integer>
 		</dict>
 		<key>Chapter02_2_Move.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>41</integer>
 		</dict>
 		<key>Chapter02_3_Bounce.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>42</integer>
 		</dict>
 		<key>Chapter3_8_Primitives.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>43</integer>
 		</dict>
 		<key>MyOpenGLCoco.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>44</integer>
 		</dict>
 		<key>blog_cxx_01.xcscheme</key>
 		<dict>
@@ -72,119 +72,154 @@
 		<key>blog_cxx_06.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>8</integer>
 		</dict>
 		<key>blog_cxx_06_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 		<key>blog_cxx_06_3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>blog_cxx_06_4.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>blog_cxx_07.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>blog_cxx_08_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>13</integer>
 		</dict>
 		<key>blog_cxx_08_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>14</integer>
 		</dict>
 		<key>blog_cxx_08_3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>15</integer>
 		</dict>
 		<key>blog_cxx_08_4.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>16</integer>
 		</dict>
 		<key>blog_cxx_09_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>17</integer>
 		</dict>
 		<key>blog_cxx_09_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>18</integer>
 		</dict>
 		<key>blog_cxx_09_3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>19</integer>
 		</dict>
 		<key>blog_cxx_10_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>20</integer>
 		</dict>
 		<key>blog_cxx_10_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>21</integer>
 		</dict>
 		<key>blog_cxx_11_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>22</integer>
 		</dict>
 		<key>blog_cxx_11_2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>23</integer>
 		</dict>
 		<key>blog_cxx_12.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>24</integer>
 		</dict>
 		<key>blog_cxx_13.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>25</integer>
 		</dict>
 		<key>blog_cxx_14.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>26</integer>
 		</dict>
 		<key>blog_cxx_15.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>27</integer>
 		</dict>
 		<key>blog_cxx_16.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>28</integer>
 		</dict>
 		<key>blog_cxx_17.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>29</integer>
 		</dict>
 		<key>blog_cxx_18.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>30</integer>
+		</dict>
+		<key>blog_cxx_19 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>blog_cxx_19 4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
 		</dict>
 		<key>blog_cxx_19.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>blog_cxx_20.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>blog_cxx_21.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
+		<key>blog_cxx_22.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
+		<key>blog_cxx_23.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
+		<key>blog_cxx_24.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>36</integer>
@@ -196,8 +231,6 @@
 		</dict>
 		<key>blog_cxx_30_2.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<true/>
 			<key>orderHint</key>
 			<integer>38</integer>
 		</dict>
@@ -205,209 +238,6 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>39</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>FA1AEFBB1F3800A80003CCDB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA1AEFCF1F38037D0003CCDB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA304F1C1F36F3C1008BC8F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA304F2F1F36F95C008BC8F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA304F401F371777008BC8F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA304F501F372133008BC8F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76941F3850540033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76A31F3859730033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76B21F3862470033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76C11F399AB70033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76D01F399E590033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76DF1F39A4770033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76EE1F39A79F0033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E76FD1F39E4F00033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E770C1F39E9690033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E771B1F3B33DD0033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E772A1F3B39300033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA3E77391F3D44F00033A888</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA42DB641F300D5A000E419B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA5EB6731F2EBA3B00F434F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA5EB6891F2EC31400F434F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA5EB69A1F2EC75100F434F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA5EB6A91F2ECD0F00F434F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA7A2E4F1F2C3CB00050D25B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA7A2E651F2C3CB00050D25B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA7A2E701F2C3CB00050D25B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA856A3F1F2DDF67005F6179</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA856A551F2E22B3005F6179</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA856A6A1F2E334B005F6179</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA856A781F2E3683005F6179</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA8B5CD81F4885CA005E0E29</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA8B5CEB1F488FE3005E0E29</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA99A26F1F38B409005F979A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA9ADA811F86576A00672179</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAB02B811F2C9213004B9277</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAB02B931F2CE4EB004B9277</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAB1A03B1F31AAED00474ECB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAF2000D1F43E94C00875B23</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAF200981F46851700875B23</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAF200A71F468E1C00875B23</key>
-		<dict>
-			<key>primary</key>
-			<true/>
 		</dict>
 	</dict>
 </dict>

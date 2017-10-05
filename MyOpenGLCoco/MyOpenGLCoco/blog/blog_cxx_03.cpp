@@ -24,8 +24,8 @@ void display(){
      缩放等的矩阵变换操作放在它们之间可以简化操作，不然每次改变都要重新
      设置矩阵模式*/
     glPushMatrix();
-     //旋转
-    glRotatef(angle, 0.0, 0.0, 1.0);
+    
+    glRotatef(angle, 0.0, 0.0, 1.0);//旋转
     //设置颜色
     glColor3f(1.0, 0.0, 0.0);
     //绘制矩形
