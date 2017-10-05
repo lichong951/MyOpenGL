@@ -279,6 +279,11 @@
 			<key>orderHint</key>
 			<integer>54</integer>
 		</dict>
+		<key>blog_cxx_37.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
